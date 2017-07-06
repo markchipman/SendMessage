@@ -1,0 +1,23 @@
+{
+  "name": "sendmessage",
+  "version": "1.0.0",
+  "description": "Send a message using Bandwidth's API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo ‘no test yet’ ", 
+    "start": "node index.js"
+
+  },
+  "keywords": [
+    "Message",
+    "Text",
+    "Send"
+  ],
+  "author": "Jillian Troftgruben",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "node-bandwidth": "^2.3.3"
+  }
+}
