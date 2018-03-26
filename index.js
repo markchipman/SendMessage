@@ -29,14 +29,12 @@ var sendMessage = function(params){
         //media: 
     })
 //calls back the message id number and catches any errors 
-//is this important?
     .then(function(message){
-        messagePrinter(message);
         return client.Message.get(message.id)
         //access ID from json can also get to and from
     })
 // catches any errors     
-.catch(function(err){
+    .catch(function(err){
         console.log(err)
     });
 }
